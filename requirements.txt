@@ -2,6 +2,6 @@
 Tensorflow==2.3
 Tensorboard==2.3
 numpy==1.18.5
-skimage==0.16.2
+skimage
 h5py==2.10.0
 glob==0.7
