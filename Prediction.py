@@ -13,8 +13,8 @@ from pre_processing import *
 # for prediction on training change the "dataset path" to training data directory
 # and Result_path to 'Result\\Training/'
 
-Dataset='ISLES2018_Testing/TESTING/' 
-Result_path='Result\\Testing/'
+Dataset='/home/ubuntu/storage1/ISLES2018/TESTING/' 
+Result_path='./results'
 pp=os.listdir(Dataset)
 print(pp)
 YCBF=[glob.glob(Dataset+q1+('/*.CT_CBF*/*.nii'))[0] for q1 in pp[:]]
